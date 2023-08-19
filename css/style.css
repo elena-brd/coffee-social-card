@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #181818;
+    background-image: url('../img/showcase-2.jpg');
+}
+
+.container {
+    background: #fff;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+    box-shadow: 0px -1px 6px rgba(255, 255, 255, 0.3);
+}
+
+.btn-buy {
+    background: #bc6c25;
+    color: #fff;
+    border: none;
+    display: block;
+    cursor: pointer;
+    padding: 0.8rem 0;
+    font-size: 0.9rem;
+    transition: all 0.3s ease-in;
+}
+
+.btn-buy:hover {
+    background: #dda15e;
+}
+
+/* card */
+#card-content .card-info-price-img {
+    background: url('../img/coffee-img.jpg') center/cover;
+    min-height: 350px;
+    position: relative;
+}
+
+#card-content .card-info-price-img span {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 1.1rem;
+    padding: 0.5rem 2.5rem;
+    background: #f30000;
+    color: #fff;
+    text-align: center;
+}
+
+#card-content .card-info-tile {
+    text-align: center;
+    background: #fff;
+    margin: 1rem 0;
+}
+
+#card-content .card-followers {
+    padding: 0.5rem;
+}
+
+#card-content .card-followers {
+    display: flex;
+    flex-direction: column;
+}
+
+#card-content .btns-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+#card-content .btns-container .btn {
+    display: block;
+    width: 100%;
+    border: #f30000 1px solid;
+    background: transparent;
+    color: #f30000;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+#card-content .btns-container .btn:hover {
+    background: #ffe8e8;
+}
+
+#card-content .info-card,
+#card-content .info-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+    margin: 1rem 0;
+}
+
+#card-content .info-card h3 {
+    font-weight: 600;
+}
+
+#card-content .info-card p {
+    font-size: 0.9rem;
+}
+
+#card-content .info-address {
+    gap: 3rem;
+    color: #777;
+}
